@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+:root{
+    --col : rgb(36, 151, 238);
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+#logo{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item i{
+    color: rgb(186, 185, 185);
+    font-size: 40px;
+}
+.nav-item{
+    font-size:20px ;
+}
+.nav:hover{
+    color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    background-image: url(./images/6.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    
+}
+.home a{
+    font-weight: 700;
+}
+.title h1{
+    font-size: 60px;
+    color: black;
+}
+html{scroll-behavior: smooth;}
+
+
+
+.about{
+    background-image: url(./images/5.jpg);
+    padding: 10% 0px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 101%;
+}
+
+
+.package{
+    background-image: url(./images/5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.content{
+    background-color: rgb(32, 32, 78);
+    width: 120%;
+    height: 340px;
+    position: relative;
+    border: 5px solid white;
+}
+.but{
+    margin-left: 25%;
+}
+
+.img1 img{
+    margin-top: -85px;
+    border: 5px solid white;
+    margin-left: 20px;
+}
+.img2 img{
+    border: 5px solid white;
+    margin-top:-50px  ;
+}
+.img3 img{
+    border: 5px solid white;
+    margin-left: -60px;
+}
+
+.background{
+    background-image: url(https://raoholidays.in/wp-content/themes/harshaholidays/assets/images/rome1.jpg);
+    /* background-color: rgb(53, 52, 52); */
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+@media(max-width:600px){
+    .background{height: 100vh;}
+}
+.icon i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 0px 15px;
+    border-radius: 50%;
+    
+}
+
+.logo{
+    margin-left: 40%;
+    margin-top: 20px;
+}
+.icon:hover i{
+    background-image: linear-gradient(to top left, rgb(244, 129, 62), yellow);}
+
+.call{
+    font-weight: 500;
+}
+.phone{
+    font-size: larger ;
+}
+
+.calls{
+    margin-top: 8%;
+}
+.calls h2{font-size: 50px;}
+.calls p{font-size: 20px;color: white;}
+.callus{
+    height: 50vh;
+    margin-top: 10%;
+    font-weight: 700;
+}
+footer{
+    background-image: url(https://raoholidays.in/wp-content/themes/harshaholidays/assets/images/background_pattern.png);
+    background-color: rgb(53, 52, 52);
+    
+}
+ .cont a{
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 5px;
+}   
+
+.policy a{
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.links a{
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 5px;
+}
