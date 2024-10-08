@@ -7,8 +7,7 @@
     --col : rgb(36, 151, 238);
 }
 body{
-    width: 100%;
-    overflow-x: hidden;
+    overflow-x: hidden
 }
 #logo{
     width: 100%;
@@ -39,7 +38,7 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    width: 100%;
+    width:
     
 }
 .home a{
@@ -59,7 +58,7 @@ html{scroll-behavior: smooth;}
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    width: 101%;
+    width: 110%;
 }
 
 
@@ -73,7 +72,7 @@ html{scroll-behavior: smooth;}
 
 .content{
     background-color: rgb(32, 32, 78);
-    width: 120%;
+    width: 100%;
     height: 340px;
     position: relative;
     border: 5px solid white;
